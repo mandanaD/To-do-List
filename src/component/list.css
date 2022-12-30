@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#title{
+    text-align: center;
+    justify-content: center;
+}
+.in-item {
+    width: 100%;
+    background: white;
+    transition: background-color ease-in 100ms;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    height: 73px;
+
+
+}
+.line{
+    color: gray;
+    text-decoration: black solid line-through;
+}
+.in-item:hover{
+    background: #f5f5f5;
+}
